@@ -2,16 +2,13 @@
 
 **Student:** Abrham Geberemedhin  
 **Student ID:** WOUR/0082/16  
-**GitHub repository:** [abrilohd/ML_Assignments](https://github.com/abrilohd/ML_Assignments)
+**GitHub:** [abrilohd/ML_Assignments](https://github.com/abrilohd/ML_Assignments)
 
-## Purpose
+## Assignment overview
 
-This university assignment separates two related activities:
+In this assignment, I explore how classification and regression models are evaluated. I begin by checking the calculations in two supplied case studies, then train baseline models using datasets included with scikit-learn and evaluate their predictions on held-out test data.
 
-1. Verifying classification and regression calculations from supplied educational PDF examples.
-2. Training and evaluating reproducible baseline models on independent built-in scikit-learn datasets.
-
-The distinction matters: a confusion matrix or a list of predictions can be used to calculate metrics, but model evaluation additionally requires data preparation, fitting on training data, and evaluation on separate test data.
+The case studies use given outcomes and predictions to demonstrate metric calculations. The separate experiments show the model-evaluation process: prepare the data, fit each model on a training set, and assess its predictions on data kept out of training. The case-study values are not used to train either model.
 
 ## Learning objectives
 

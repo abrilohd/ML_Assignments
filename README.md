@@ -31,7 +31,7 @@ The notebook reproduces and verifies two supplied examples:
 - **Email filtering classification:** TP = 40, TN = 45, FP = 5, FN = 10. It verifies accuracy = 85%, precision = 88.89%, recall = 80%, specificity = 90%, and F1-score = 84.21%.
 - **Patient length-of-stay regression:** five supplied actual/predicted values. It verifies MAE = 1.4, MSE = 2.6, and RMSE ≈1.61.
 
-The regression PDF reports R-squared = 75.93% using a total sum of squares of 54. Direct calculation from its listed actual values gives squared deviations of 9, 1, 16, 25, and 1: total sum of squares = 52. With residual sum of squares = 13, the correct value is **R-squared = 1 - 13/52 = 75.00%**.
+The regression PDF, *Predicting Patient Length of Stay in Days*, reports R-squared = 75.93% using a total sum of squares of 54. Direct calculation from its listed actual values gives squared deviations of 9, 1, 16, 25, and 1: total sum of squares = 52. With residual sum of squares = 13, the correct value is **R-squared = 1 - 13/52 = 75.00%**. Its operational recommendations are not validated by five observations and supplied predictions.
 
 These are reference calculations, not trained models or new experimental data.
 
@@ -101,6 +101,6 @@ Colab includes the required scientific Python packages in standard runtimes. The
 
 ## References
 
-1. *Classification Model Evaluation: Case Study Solutions*. Supplied educational reference PDF.
-2. *Regression Model Diagnostics: Patient Length of Stay Case Study*. Supplied educational reference PDF.
+1. *Classification Model Evaluation: Case Study Solutions*. Supplied one-page educational reference PDF.
+2. *Predicting Patient Length of Stay in Days*. Supplied one-page educational reference PDF.
 3. scikit-learn developers, built-in `load_breast_cancer` and `load_diabetes` datasets.
